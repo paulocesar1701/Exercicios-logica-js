@@ -1,4 +1,6 @@
-let numero
+function exibirNumero(num=0){
 console.log("Digite um número")
-numero = 10
-console.log("O número informado foi", numero)
+console.log("O número informado foi", num)
+}
+
+exibirNumero(1)
