@@ -1,10 +1,10 @@
 function media(n1=0,n2=0,n3=0,n4=0,media=0){
-console.log("Digite a primeira nota")
-console.log("Digite a segunda nota")
-console.log("Digite a terceira nota")
-console.log("Digite a quarta nota")
+n1 = parseFloat(n1)
+n2 = parseFloat(n2)
+n3 = parseFloat(n3)
+n4 = parseFloat(n4)
 media = (n1 + n2 + n3 + n4) / 4
-console.log("A média é", media.toFixed(1))
+document.querySelector("#resultado").innerHTML = "A média é:" + media
 }
 
-media(4,10,9,7)
+

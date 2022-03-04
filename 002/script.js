@@ -1,6 +1,5 @@
-function exibirNumero(num=0){
-console.log("Digite um número")
-console.log("O número informado foi", num)
+function exibirNumero(numero=0){
+document.querySelector("#resultado").innerHTML = "O número informado foi: " + numero
 }
 
 exibirNumero(1)
